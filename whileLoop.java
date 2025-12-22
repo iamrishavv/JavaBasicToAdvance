@@ -8,10 +8,19 @@ public class whileLoop {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter n: ");
         int n=sc.nextInt();
-        int num =1;
-        while(num <=n){
-            System.out.println(num);
-            num++;
+        int i =1;
+        while(i <=n){
+            System.out.println(i);
+            i++;
+        }
+        int j=10;
+        while(j>=1){
+            System.out.println(j);
+            j--;
+        }
+        int k=10;
+        while(k>=1){
+            System.out.println(k);
         }
     }
 }
