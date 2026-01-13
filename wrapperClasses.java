@@ -32,6 +32,13 @@ public class wrapperClasses {
         Integer i2 = new Integer("10");// String
         Character c = new Character('A');
         //Character c = new Character("A");//wrong because
+        //using valueof ()
+        //-->primitive to wrapper
+        Integer i = Integer.valueOf(10);
+        Double d = Double.valueOf(20.5);
+        //wrapper to primitive
+        Integer i = Integer.valueOf("100");
+        int x = i;   // auto-unboxing
 
 
 
